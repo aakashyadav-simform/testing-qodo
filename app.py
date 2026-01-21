@@ -7,5 +7,5 @@ if __name__ == "__main__":
     a = int(os.getenv("A", "0"))
     b = int(os.getenv("B", "0"))
     result = add(a, b)
-    print(f"Result from DEV branch: {result}")
+    print(f"New Result: {result}")
 
